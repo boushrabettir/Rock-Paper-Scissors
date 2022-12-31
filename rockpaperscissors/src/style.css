@@ -1,6 +1,5 @@
 body {
   background-color: #b67278;
-  box-shadow: 0 0 20px gray;
 }
 
 .green {
@@ -15,6 +14,7 @@ body {
 
 .orange {
   background-color: #cda150;
+  box-shadow: 0 0 20px gray;
 }
 
 .entire-container {
