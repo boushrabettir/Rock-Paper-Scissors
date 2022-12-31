@@ -45,7 +45,7 @@ function HumanChoice() {
   let allBtns = document.querySelector(".button-choices").addEventListener("click", ($event) => {
       if ($event.target.matches("#choice")) {
         console.log("clicked");
-        let choice = (answerOutput.innerHTML = "You chose " + $event.target.value + "!");
+        choice = (answerOutput.innerHTML = "You chose " + $event.target.value + "!");
       }
       computerOutput.innerHTML = RandomComputerChoice();
     });
