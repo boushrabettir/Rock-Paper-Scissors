@@ -1,0 +1,138 @@
+body {
+  background-color: #b67278;
+  box-shadow: 0 0 20px gray;
+}
+
+.green {
+  background-color: #45ac56;
+  box-shadow: 0 0 20px gray;
+}
+
+.blue {
+  background-color: #5092cd;
+  box-shadow: 0 0 20px gray;
+}
+
+.orange {
+  background-color: #cda150;
+}
+
+.entire-container {
+  background-color: rgb(225, 225, 225, 0.5);
+  box-shadow: 0 0 0 20px #4e0b0b, 0 0 90px #581818;
+  width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+header .title {
+  color: #4e0b0b;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 50px;
+  padding-bottom: 5px;
+  margin-bottom: 70px;
+  font-family: "Londrina Solid", sans-serif;
+  border-bottom: solid 3px rgb(78, 11, 11, 0.5);
+  width: 20em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header .title span p {
+  font-size: 20px;
+  margin-left: 20px;
+  animation-name: heart;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+
+.title span .heart {
+  color: #9b3b3b;
+  text-shadow: 0 0 20px #5b1212;
+}
+
+@keyframes heart {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, -10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.button-choices {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.button-choices button {
+  width: 500px;
+  height: 250px;
+  font-size: 60px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Lilita One", sans-serif;
+  color: #201c1c;
+  transition: all 300ms ease;
+}
+
+.button-choices button:hover {
+  background-color: #c8c754;
+  transform: scale(1.1);
+}
+
+.instruction-container {
+  font-family: "Lilita One", sans-serif;
+}
+
+.computer-container {
+  font-size: 20px;
+  gap: 30px;
+  font-family: "Lilita One", sans-serif;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.computer-container span {
+  display: inline-block;
+  margin-left: 20px;
+  background-color: #d0d8de;
+  padding: 20px;
+  box-shadow: 0 0 0 5px #0c4571;
+}
+
+.computer-container .player-name {
+  background-color: #517592;
+  padding-left: 20px;
+  font-size: 30px;
+  box-shadow: 0 0 0 5px #0c4571;
+}
+
+.answer-box {
+  font-size: 20px;
+  gap: 30px;
+  font-family: "Lilita One", sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  background-color: #517592;
+  padding-left: 20px;
+  font-size: 30px;
+  box-shadow: 0 0 0 5px #0c4571;
+}
+
+.answer-box .answer-container {
+  display: inline-block;
+  margin-left: 20px;
+  background-color: #d0d8de;
+  padding: 20px;
+  box-shadow: 0 0 0 5px #0c4571;
+}
