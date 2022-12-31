@@ -42,13 +42,10 @@ function HumanChoice() {
   // let instruct = (document.querySelector(".instruction-container").innerHTML =
   //   "Your turn!");
   let choice;
-  let allBtns = document
-    .querySelector(".button-choices")
-    .addEventListener("click", ($event) => {
+  let allBtns = document.querySelector(".button-choices").addEventListener("click", ($event) => {
       if ($event.target.matches("#choice")) {
         console.log("clicked");
-        let choice = (answerOutput.innerHTML =
-          "You chose " + $event.target.value + "!");
+        let choice = (answerOutput.innerHTML = "You chose " + $event.target.value + "!");
       }
       computerOutput.innerHTML = RandomComputerChoice();
     });
